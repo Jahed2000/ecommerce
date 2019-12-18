@@ -1,0 +1,56 @@
+body{
+	min-height: 100%;
+	padding-bottom: 6rem;
+}
+html{
+	position: relative;
+	min-height: 100%;
+}
+
+.hidden{
+	display: none;
+	/*used in checkouts.blade*/
+}
+
+.pointer{
+	cursor: pointer;
+	/*used in user dashboard*/
+}
+
+.sidebar{
+	margin-top: 30px;
+}
+
+.card-img-top{
+	min-height: 200px;
+	max-height: 300px;
+}
+
+.widget{
+	margin: 30px 0 30px 0;
+	padding: 20px 0 0 0;
+}
+
+.footer{
+	background: #6CB2EB;
+	margin-top: 60px;
+	padding: 15px 0 10px 0;
+
+	bottom:0;
+	left: 0;
+	right: 0;
+	position: absolute;
+}
+
+.list-group-item:hover{
+	background: #17A2B8;
+	
+}
+
+.list-group-item.active{
+
+    z-index: 2;
+    color: white;
+    background-color: #17A2B8 !important;
+    border-color: #3490dc;
+}
